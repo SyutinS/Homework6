@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
     }
+
     public static void task1() {
         System.out.println("Задача 1");
         byte clientOS = 1;
@@ -20,6 +21,7 @@ public class Main {
                 System.out.println("Установите другую операционную систему !!!");
         }
     }
+
     public static void task2() {
         System.out.println("Задача 2");
         int ClientDeviceYear = 2015;
@@ -33,6 +35,7 @@ public class Main {
         else if (ClientDeviceYear < 2015 && clientOS ==1)
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
     }
+
     public static void task3() {
         System.out.println("Задача 3");
         int year = 2021;
@@ -48,6 +51,7 @@ public class Main {
             System.out.println(year + " год является високостным");
         }
     }
+
     public static void task4() {
         System.out.println("Задача 4");
         byte deliveryDistance = 95;
@@ -60,6 +64,7 @@ public class Main {
             System.out.println("Потребуется: " + (daysDelivery + 2) + "дня");
         else System.out.println("Доставки нет !");
     }
+
     public static void task5() {
         byte monthNumber = 12;
         switch (monthNumber) {
