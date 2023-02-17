@@ -25,7 +25,7 @@ public class Main {
     public static void task2() {
         System.out.println("Задача 2");
         int ClientDeviceYear = 2015;
-        byte clientOS = 1;
+        byte clientOS = 0;
         if (ClientDeviceYear >= 2015 && clientOS == 0)
             System.out.println("Установите версию приложения для iOS по ссылке");
         else if (ClientDeviceYear >= 2015 && clientOS == 1)
@@ -42,7 +42,6 @@ public class Main {
         int yearEach4 = year % 4;
         int yearEach100 = year % 100;
         int yearEach400 = year % 400;
-
         if (yearEach100 == 0 && yearEach400 != 0)
             System.out.println(year + " год не является високостным");
         else if (yearEach4 != 0)
