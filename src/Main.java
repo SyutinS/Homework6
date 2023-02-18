@@ -60,6 +60,7 @@ public class Main {
         else System.out.println("Доставки нет !");
     }
     public static void task5() {
+        System.out.println("Задача 5");
         byte monthNumber = 12;
         switch (monthNumber) {
             case 1:
