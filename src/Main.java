@@ -8,7 +8,7 @@ public class Main {
     }
     public static void task1() {
         System.out.println("Задача 1");
-        byte clientOS = 0;
+        byte clientOS = 1;
         switch (clientOS) {
             case 0:
                 System.out.println("Установите версию приложения для iOS по ссылке");
@@ -22,8 +22,8 @@ public class Main {
     }
     public static void task2() {
         System.out.println("Задача 2");
-        int ClientDeviceYear = 2013;
-        byte clientOS = 1;
+        int ClientDeviceYear = 2015;
+        byte clientOS = 0;
         if (ClientDeviceYear >= 2015 && clientOS == 0)
             System.out.println("Установите версию приложения для iOS по ссылке");
         else if (ClientDeviceYear >= 2015 && clientOS == 1)
@@ -35,7 +35,7 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Задача 3");
-        int year = 2320;
+        int year = 2021;
         int yearEach4 = year % 4;
         int yearEach100 = year % 100;
         int yearEach400 = year % 400;
@@ -49,7 +49,7 @@ public class Main {
     }
     public static void task4() {
         System.out.println("Задача 4");
-        byte deliveryDistance = 25;
+        byte deliveryDistance = 95;
         byte daysDelivery = 1;
         if (deliveryDistance < 20)
             System.out.println("Потребуется: " + daysDelivery + " день");
@@ -60,7 +60,8 @@ public class Main {
         else System.out.println("Доставки нет !");
     }
     public static void task5() {
-        byte monthNumber = 7;
+        System.out.println("Задача 5");
+        byte monthNumber = 12;
         switch (monthNumber) {
             case 1:
                 System.out.println("Месяц № " + monthNumber + " - зима / месяц - январь");
